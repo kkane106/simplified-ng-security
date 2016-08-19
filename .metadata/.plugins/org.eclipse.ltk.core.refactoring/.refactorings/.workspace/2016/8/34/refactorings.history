@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;NgSecurity&apos; to &apos;SimpleNgSecurity&apos;" description="Rename resource &apos;NgSecurity&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/NgSecurity" name="SimpleNgSecurity" stamp="1471648046790" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;NgSecurityData&apos; to &apos;SimpleNgSecurityData&apos;" description="Rename resource &apos;NgSecurityData&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/NgSecurityData" name="SimpleNgSecurityData" stamp="1471648061965" updateReferences="true"/>
+</session>

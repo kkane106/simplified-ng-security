@@ -1,0 +1,54 @@
+package security;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import data.UserDao;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jws;
+import io.jsonwebtoken.Jwts;
+
+@Component
+public class RestSecurityInterceptor extends HandlerInterceptorAdapter {
+
+	// Simplest possible preHandler -> only checks that 'x-access-token' header
+	// is present with no further authentication
+	// Might be worth creating less trivial example that extracts userId and
+	// attaches User object to request
+	// additional benefit of this approach would be the removal of the Jwt
+	// parsing logic from the destination controller
+	// (see less trival example below)
+	// @Override
+	// public boolean preHandle(HttpServletRequest request, HttpServletResponse
+	// response, Object handler) throws Exception {
+	// if (request.getHeader("x-access-token") != null) {
+	// return true;
+	// }
+	// response.sendRedirect("http://localhost:8080/auth/access-denied");
+	// return false;
+	// }
+
+	@Autowired
+	private UserDao dao;
+
+	@Autowired
+	private SecretKeyGenerator keyGen;
+
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {
+		if (request.getHeader("x-access-token") != null) {
+			String jwt = request.getHeader("x-access-token");
+			Jws<Claims> jws = Jwts.parser().setSigningKey(keyGen.getSecretKey()).parseClaimsJws(jwt);
+			System.out.println(jws.getBody());
+			return true;
+
+		}
+		response.sendRedirect("http://localhost:8080/auth/access-denied");
+		return false;
+	}
+}

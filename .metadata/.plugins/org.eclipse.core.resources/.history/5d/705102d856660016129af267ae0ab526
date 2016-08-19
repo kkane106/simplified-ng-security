@@ -1,0 +1,21 @@
+package security;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+@Component
+public class RestSecurityInterceptor extends HandlerInterceptorAdapter {
+	
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+		// TODO : Add preHandle implementation example (simple one)
+		if (request.getHeader("x-access-token") != null) {			
+			return true;
+		}
+		response.sendRedirect("http://localhost:8080/auth/access-denied");
+		return false;
+	}
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+C:\Users\kkane\Development\StudentNgSecurity\.metadata\.plugins\org.eclipse.jdt.core
+852729415.index
+2945147130.index

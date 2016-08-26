@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1471640607856_0" label="TestNgSecurityForStudents" name="TestNgSecurityForStudents">
-<item elementID="=SimpleNgSecurity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=SimpleNgSecurityData" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SimpleNgSecurity" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1471903869593_1" label="Window Working Set" name="Aggregate for window 1471903869592"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472222837143_2" label="Window Working Set" name="Aggregate for window 1472222837143"/>
 <mruList name="TestNgSecurityForStudents"/>
 </workingSetManager>

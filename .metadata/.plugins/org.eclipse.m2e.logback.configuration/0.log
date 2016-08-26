@@ -173,3 +173,358 @@
 2016-08-19 16:03:31,073 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\NgSecurity\src\main\resources
 2016-08-19 16:03:31,078 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-08-19 16:03:31,086 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\NgSecurity\src\test\resources
+2016-08-22 16:11:14,579 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: NgSecurityData:NgSecurityData:0.0.1-SNAPSHOT @ C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\pom.xml.
+2016-08-22 16:11:15,807 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-22 16:11:15,814 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-08-22 16:11:15,821 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-22 16:11:15,824 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\src\test\resources
+2016-08-22 16:11:16,356 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: NgSecurity:NgSecurity:0.0.1-SNAPSHOT @ C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\pom.xml.
+2016-08-22 16:11:16,666 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: NgSecurityData:NgSecurityData:0.0.1-SNAPSHOT @ C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\pom.xml.
+2016-08-22 16:11:18,703 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-22 16:11:18,710 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-08-22 16:11:18,722 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-22 16:11:18,726 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\src\test\resources
+2016-08-22 16:11:19,052 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-22 16:11:19,056 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-22 16:11:19,057 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-22 16:11:19,061 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 14:28:33,982 [Worker-453] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 14:28:33,985 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 14:28:33,986 [Worker-453] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 14:28:33,990 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 14:29:02,921 [Worker-449] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 14:29:02,933 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 14:29:02,940 [Worker-449] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 14:29:02,948 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 14:30:25,305 [Worker-453] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 14:30:25,314 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 14:30:25,319 [Worker-453] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 14:30:25,326 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:24:35,684 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:24:35,690 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:24:35,693 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:24:35,698 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:31:23,364 [Worker-480] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:31:23,372 [Worker-480] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:31:23,376 [Worker-480] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:31:23,380 [Worker-480] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:47:29,677 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:47:29,688 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:47:29,696 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:47:29,707 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:49:37,129 [Worker-494] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:49:37,133 [Worker-494] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:49:37,136 [Worker-494] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:49:37,140 [Worker-494] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:49:46,972 [Worker-497] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:49:46,980 [Worker-497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:49:46,985 [Worker-497] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:49:46,993 [Worker-497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:50:42,343 [Worker-498] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:50:42,351 [Worker-498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:50:42,355 [Worker-498] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:50:42,361 [Worker-498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:50:56,281 [Worker-496] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:50:56,293 [Worker-496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:50:56,300 [Worker-496] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:50:56,311 [Worker-496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:52:20,703 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:52:20,708 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:52:20,712 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:52:20,716 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:52:42,373 [Worker-496] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:52:42,378 [Worker-496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:52:42,381 [Worker-496] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:52:42,386 [Worker-496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:54:16,455 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:54:16,478 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:54:16,485 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:54:16,495 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:54:42,829 [Worker-498] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:54:42,835 [Worker-498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:54:42,840 [Worker-498] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:54:42,846 [Worker-498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:55:19,056 [Worker-497] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:55:19,063 [Worker-497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:55:19,066 [Worker-497] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:55:19,073 [Worker-497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 15:55:36,842 [Worker-492] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:55:36,853 [Worker-492] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 15:55:36,859 [Worker-492] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 15:55:36,869 [Worker-492] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 16:18:04,412 [Worker-513] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:18:04,417 [Worker-513] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 16:18:04,420 [Worker-513] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:18:04,426 [Worker-513] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 16:18:54,518 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:18:54,525 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 16:18:54,529 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:18:54,536 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 16:19:46,378 [Worker-510] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:19:46,387 [Worker-510] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 16:19:46,391 [Worker-510] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:19:46,400 [Worker-510] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 16:21:25,686 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:21:25,692 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 16:21:25,695 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:21:25,701 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 16:22:32,293 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:22:32,304 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 16:22:32,311 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:22:32,318 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-23 16:23:25,780 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:23:25,789 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-23 16:23:25,793 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-23 16:23:25,801 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 10:00:27,516 [Worker-828] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:00:27,520 [Worker-828] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 10:00:27,524 [Worker-828] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:00:27,531 [Worker-828] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 10:06:12,445 [Worker-832] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:06:12,452 [Worker-832] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 10:06:12,456 [Worker-832] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:06:12,461 [Worker-832] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 10:12:51,995 [Worker-843] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:12:52,007 [Worker-843] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 10:12:52,013 [Worker-843] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:12:52,024 [Worker-843] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 10:13:21,824 [Worker-843] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:13:21,828 [Worker-843] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 10:13:21,831 [Worker-843] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:13:21,835 [Worker-843] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 10:14:00,465 [Worker-840] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:14:00,470 [Worker-840] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 10:14:00,473 [Worker-840] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 10:14:00,477 [Worker-840] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:24:22,273 [Worker-951] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:24:22,276 [Worker-951] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:24:22,278 [Worker-951] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:24:22,282 [Worker-951] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:25:24,223 [Worker-954] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:25:24,234 [Worker-954] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:25:24,237 [Worker-954] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:25:24,243 [Worker-954] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:26:35,314 [Worker-948] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:26:35,321 [Worker-948] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:26:35,324 [Worker-948] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:26:35,330 [Worker-948] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:27:11,792 [Worker-951] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:27:11,799 [Worker-951] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:27:11,802 [Worker-951] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:27:11,810 [Worker-951] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:27:20,496 [Worker-955] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:27:20,504 [Worker-955] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:27:20,509 [Worker-955] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:27:20,517 [Worker-955] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:28:01,079 [Worker-952] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:28:01,086 [Worker-952] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:28:01,089 [Worker-952] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:28:01,096 [Worker-952] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:29:40,447 [Worker-953] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:29:40,455 [Worker-953] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:29:40,458 [Worker-953] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:29:40,465 [Worker-953] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:30:34,835 [Worker-845] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:30:34,844 [Worker-845] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:30:34,851 [Worker-845] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:30:34,857 [Worker-845] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:30:59,927 [Worker-845] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:30:59,931 [Worker-845] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:30:59,934 [Worker-845] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:30:59,938 [Worker-845] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:32:10,016 [Worker-954] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:32:10,022 [Worker-954] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:32:10,026 [Worker-954] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:32:10,032 [Worker-954] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-24 15:33:11,007 [Worker-845] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:33:11,019 [Worker-845] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-24 15:33:11,026 [Worker-845] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-24 15:33:11,035 [Worker-845] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 08:47:22,965 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 08:47:22,972 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-08-26 08:47:22,976 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 08:47:22,979 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\src\test\resources
+2016-08-26 08:47:23,955 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 08:47:23,958 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 08:47:23,959 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 08:47:23,962 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:00:47,369 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:00:47,373 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:00:47,375 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:00:47,379 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:04:34,068 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:04:34,071 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:04:34,072 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:04:34,075 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:05:09,833 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:05:09,838 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:05:09,840 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:05:09,845 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:05:52,873 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:05:52,880 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:05:52,885 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:05:52,889 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:07:58,500 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:07:58,504 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:07:58,505 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:07:58,508 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:08:43,352 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:08:43,358 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:08:43,364 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:08:43,369 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:10:38,068 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:10:38,080 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:10:38,082 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:10:38,085 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:10:42,410 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:10:42,416 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:10:42,420 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:10:42,423 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:10:56,804 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:10:56,810 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:10:56,811 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:10:56,817 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:12:49,539 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:12:49,545 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:12:49,549 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:12:49,552 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:13:01,318 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:13:01,324 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:13:01,326 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:13:01,333 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:13:33,014 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:13:33,034 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:13:33,046 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:13:33,052 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:14:04,403 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:14:04,406 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:14:04,407 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:14:04,411 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 09:16:43,226 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:16:43,232 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 09:16:43,236 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 09:16:43,238 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:11:54,479 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:11:54,482 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:11:54,482 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:11:54,485 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:14:40,344 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:14:40,347 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:14:40,350 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:14:40,353 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:15:00,904 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:15:00,907 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:15:00,908 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:15:00,910 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:16:49,389 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:16:49,395 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:16:49,398 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:16:49,400 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:18:13,735 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:18:13,743 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:18:13,746 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:18:13,757 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:20:28,399 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:20:28,405 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:20:28,408 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:20:28,411 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:20:34,412 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:20:34,415 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:20:34,415 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:20:34,418 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:21:39,938 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:21:39,943 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:21:39,947 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:21:39,949 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:21:57,867 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:21:57,870 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:21:57,871 [Worker-144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:21:57,874 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:22:06,122 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:06,127 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:22:06,131 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:06,133 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:22:16,039 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:16,045 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:22:16,046 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:16,049 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:22:22,834 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:22,840 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:22:22,843 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:22,846 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:22:43,083 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:43,089 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:22:43,090 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:22:43,096 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:28:04,541 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:28:04,558 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:28:04,564 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:28:04,570 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:28:33,662 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:28:33,668 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:28:33,670 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:28:33,676 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:28:45,208 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:28:45,214 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:28:45,219 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:28:45,222 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:29:59,161 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:29:59,163 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:29:59,164 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:29:59,167 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:30:35,707 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:30:35,714 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:30:35,718 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:30:35,722 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:31:09,276 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:31:09,279 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:31:09,280 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:31:09,285 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:31:18,873 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:31:18,878 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:31:18,881 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:31:18,884 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:39:03,368 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:39:03,372 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:39:03,372 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:39:03,376 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:41:27,925 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:41:27,932 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:41:27,936 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:41:27,939 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:42:08,491 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:42:08,497 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:42:08,499 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:42:08,504 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:42:18,641 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:42:18,648 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:42:18,653 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:42:18,656 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:43:12,159 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:43:12,162 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:43:12,163 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:43:12,165 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:44:05,606 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:44:05,618 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-08-26 15:44:05,624 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:44:05,628 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\src\test\resources
+2016-08-26 15:45:09,877 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:45:09,879 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:45:09,880 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:45:09,883 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:45:25,099 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:45:25,104 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:45:25,106 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:45:25,109 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 15:45:50,322 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:45:50,325 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 15:45:50,325 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 15:45:50,328 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-26 16:23:51,588 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 16:23:51,591 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-08-26 16:23:51,594 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 16:23:51,596 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurityData\src\test\resources
+2016-08-26 16:24:33,960 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 16:24:33,963 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-26 16:24:33,964 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-26 16:24:33,967 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources

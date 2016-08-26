@@ -1,0 +1,31 @@
+var app = angular.module('applicationModule');
+
+var testController = function() {
+	var vm = this;
+	
+	vm.isLoggedIn = function() {
+		var token = $window.localStorage['todo-token'];
+		
+		if (token) {
+			var payload = JSON.parse($window.atob(token.split('.')[1]));
+			console.log(payload);
+		} 
+	}
+	
+	vm.currentUser = function() {
+		var token = $window.localStorage['todo-token'];
+		var payload = JSON.parse($window.atob(token.split('.')[1]));
+		console.log(payload);
+		return payload;
+	}
+}
+
+app.component('testJwt',{
+	template:`
+	<div>
+		<button ng-click="ctrl.currentUser()"></button>
+	</div>
+	`,
+	controller: testController,
+	controllerAs: 'ctrl'
+});

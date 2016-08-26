@@ -1,5 +1,7 @@
 package controllers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -10,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import data.TodoDao;
 import entities.Todo;
-import entities.User;
 
 @RestController
 public class TodoController {
@@ -20,5 +21,12 @@ public class TodoController {
 	@RequestMapping("/todos")
 	public List<Todo> index(HttpServletRequest request) {
 		return dao.index((int) request.getAttribute("user_id"));
+	}
+	
+	@RequestMapping("/todos/{id}")
+	public List<Todo> show(HttpServletRequest request) {
+//		return dao.index((int) request.getAttribute("user_id"));
+		System.out.println((String) request.getAttribute("BANANA"));
+		return new ArrayList<Todo>(Arrays.asList(new Todo("go to store")));
 	}
 }

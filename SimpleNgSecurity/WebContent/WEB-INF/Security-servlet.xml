@@ -17,6 +17,7 @@
 	<bean id="todoDao" class="data.TodoDao" />
 	
 	<bean id="secretKeyGenerator" class="security.SecretKeyGenerator" />
+	<bean id="jsonWebTokenGenerator" class="models.JsonWebTokenGenerator" />
 
 	<mvc:interceptors>
 		<mvc:interceptor>

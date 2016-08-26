@@ -9,4 +9,5 @@ public class WelcomeController {
 	public String loginViewHandler(){
 		return "static/app_client/index.html";
 	}
+	
 }

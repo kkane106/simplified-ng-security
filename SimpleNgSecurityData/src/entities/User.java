@@ -20,7 +20,6 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String username;
-	@JsonIgnore
 	private String password;
 	@JsonManagedReference
 	@OneToMany(mappedBy="user",targetEntity=Todo.class,
@@ -42,6 +41,8 @@ public class User {
 	public void setUsername(String username) {
 		this.username = username;
 	}
+	
+	@JsonIgnore
 	public String getPassword() {
 		return password;
 	}

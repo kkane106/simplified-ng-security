@@ -5,18 +5,27 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import entities.User;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import security.SecretKeyGenerator;
 
+@Component
 public class JsonWebTokenGenerator {
+	@Autowired
+	SecretKeyGenerator keyGen;
 
-	public String generateUserJwt(long userId, Key key) {
+	public String generateUserJwt(User user, Key key) {
 		Date now = new Date();
 		Date tomorrow = new Date(now.getTime() + (1000 * 60 * 60 * 24));
 		
 		System.out.println("GOT HERE");
 		Map<String, Object> userJson = new HashMap<>();
-		userJson.put("user_id", userId);
+		userJson.put("user_id", user.getId());
+		userJson.put("username", user.getUsername());
 		
 		String jwt = "";
 		try {

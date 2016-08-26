@@ -2,10 +2,12 @@ package controllers;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.persistence.NoResultException;
-import javax.persistence.PersistenceException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,8 +18,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import data.UserDao;
@@ -28,24 +28,31 @@ import security.SecretKeyGenerator;
 @RestController
 @RequestMapping("/auth")
 public class AuthenticationController {
-	// inject secret key
 	@Autowired
-	SecretKeyGenerator keyGen;
+	JsonWebTokenGenerator jwtGen;
 	
 	@Autowired
 	UserDao userDao;
 	
-	// inject BCrypt
 	@Autowired
 	BCryptPasswordEncoder passwordEncoder;
 	
+	@Autowired
+	SecretKeyGenerator keyGen;
+	
+	@RequestMapping(value = "/users")
+	public List<User> index() {
+		return userDao.index();
+	}
 	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public ResponseEntity<?> login(@RequestBody String userJsonString) {
+	public Map<String,String> login(HttpServletRequest req, HttpServletResponse res, @RequestBody String userJsonString) {
+		Map<String,String> responseJson = new HashMap<>();
 		ObjectMapper mapper = new ObjectMapper();
 		User user = null;
 		try {
 			user = mapper.readValue(userJsonString, User.class);
+			System.out.println(user);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -53,55 +60,72 @@ public class AuthenticationController {
 		try {
 			user = userDao.authenticateUser(user);
 		} catch (NoResultException e) {
-			Map<String,String> errJson = new HashMap<>();
-			errJson.put("message", "Username not found");
-			return new ResponseEntity<Map<String,String>>(errJson, HttpStatus.NOT_FOUND);
+			res.setStatus(404);
+			responseJson.put("message", "Username not found");
+			return responseJson;
 		}
 		
 		if (user != null) {
-			JsonWebTokenGenerator jwtGen = new JsonWebTokenGenerator();
-			String jws = jwtGen.generateUserJwt(user.getId(), keyGen.getSecretKey());
-			Map<String,String> success = new HashMap<>();
-			success.put("jwt", jws);
-			return new ResponseEntity<Map<String,String>>(success, HttpStatus.OK);
+			responseJson.put("jwt", jwtGen.generateUserJwt(user, keyGen.getSecretKey()));
+			return responseJson;
 		}
-		return new ResponseEntity<String>("Incorrect password", HttpStatus.UNAUTHORIZED);
+		res.setStatus(401);
+		return responseJson;
 	}
 	
 	@RequestMapping(value = "/signup", method = RequestMethod.POST)
-	public ResponseEntity<?> signup(@RequestBody String userJsonString){
+	public Map<String,String> signup(HttpServletRequest req, HttpServletResponse res, @RequestBody String userJson) {
+		Map<String,String> responseJson = new HashMap<>();
 		ObjectMapper mapper = new ObjectMapper();
 		User user = null;
 		try {
-			user = mapper.readValue(userJsonString, User.class);
-			user.setPassword(passwordEncoder.encode(user.getPassword()));
-			
-			try {
-				user = userDao.create(user);
-			} catch (PersistenceException pe) {
-				Map<String,String> usernameUnavailable = new HashMap<>();
-				usernameUnavailable.put("error", "Chosen username is not available");
-				return new ResponseEntity<Map<String,String>>(usernameUnavailable, HttpStatus.UNPROCESSABLE_ENTITY);
-			}
-		} catch (JsonParseException jpe) {
-			jpe.printStackTrace();
-		} catch (JsonMappingException jme) {
-			jme.printStackTrace();
-		} catch (IOException ie) {
-			ie.printStackTrace();
+			 user = mapper.readValue(userJson, User.class);
+		} catch (IOException e) {
+			e.printStackTrace();
+			res.setStatus(422);
+			responseJson.put("error","invalid user object: " + userJson);
+			return responseJson;
 		}
-		
-		if (user != null) {
-			JsonWebTokenGenerator jwtGen = new JsonWebTokenGenerator();
-			String jws = jwtGen.generateUserJwt(user.getId(), keyGen.getSecretKey());
-			Map<String,String> success = new HashMap<>();
-			success.put("jwt", jws);
-			return new ResponseEntity<Map<String,String>>(success, HttpStatus.OK);
-		}
-		Map<String,String> errJson = new HashMap<>();
-		errJson.put("error", "Something went wrong");
-		return new ResponseEntity<Map<String,String>>(errJson, HttpStatus.INTERNAL_SERVER_ERROR);
+		user = userDao.create(user);
+		res.setStatus(201);
+		responseJson.put("jwt", jwtGen.generateUserJwt(user, keyGen.getSecretKey()));
+		return responseJson;
 	}
+	
+//	@RequestMapping(value = "/signup", method = RequestMethod.POST)
+//	public ResponseEntity<?> signup(@RequestBody String userJsonString){
+//		ObjectMapper mapper = new ObjectMapper();
+//		User user = null;
+//		try {
+//			user = mapper.readValue(userJsonString, User.class);
+//			user.setPassword(passwordEncoder.encode(user.getPassword()));
+//			
+//			try {
+//				user = userDao.create(user);
+//			} catch (PersistenceException pe) {
+//				Map<String,String> usernameUnavailable = new HashMap<>();
+//				usernameUnavailable.put("error", "Chosen username is not available");
+//				return new ResponseEntity<Map<String,String>>(usernameUnavailable, HttpStatus.UNPROCESSABLE_ENTITY);
+//			}
+//		} catch (JsonParseException jpe) {
+//			jpe.printStackTrace();
+//		} catch (JsonMappingException jme) {
+//			jme.printStackTrace();
+//		} catch (IOException ie) {
+//			ie.printStackTrace();
+//		}
+//		
+//		if (user != null) {
+//			JsonWebTokenGenerator jwtGen = new JsonWebTokenGenerator();
+//			String jws = jwtGen.generateUserJwt(user.getId(), keyGen.getSecretKey());
+//			Map<String,String> success = new HashMap<>();
+//			success.put("jwt", jws);
+//			return new ResponseEntity<Map<String,String>>(success, HttpStatus.OK);
+//		}
+//		Map<String,String> errJson = new HashMap<>();
+//		errJson.put("error", "Something went wrong");
+//		return new ResponseEntity<Map<String,String>>(errJson, HttpStatus.INTERNAL_SERVER_ERROR);
+//	}
 	
 	// preHandle redirect route for requests without correct header
 	@RequestMapping(value = "/access-denied")

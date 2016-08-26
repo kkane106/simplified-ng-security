@@ -27,6 +27,9 @@ public class UserDao {
 	}
 	
 	public User create(User user) throws PersistenceException, ConstraintViolationException {
+		String rawPassword = user.getPassword();
+		String encodedPassword = passwordEncoder.encode(rawPassword);
+		user.setPassword(encodedPassword);
 		em.persist(user);
 		em.flush();
 		return user;
@@ -38,7 +41,10 @@ public class UserDao {
 	
 	public User authenticateUser(User user) throws NoResultException {
 		User u = (User) em.createQuery("SELECT u FROM User u where username = '" + user.getUsername() + "'").getSingleResult();
+		System.out.println(user.getPassword());
+		System.out.println(u.getPassword());
 		if (passwordEncoder.matches(user.getPassword(), u.getPassword())) {
+			System.out.println("in conditional");
 			return u;
 		}
 		return null;

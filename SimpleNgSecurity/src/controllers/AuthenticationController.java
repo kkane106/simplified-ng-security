@@ -36,6 +36,7 @@ public class AuthenticationController {
   
   @RequestMapping(value = "/login", method = RequestMethod.POST)
   public Map<String,String> login(HttpServletRequest req, HttpServletResponse res, @RequestBody String userJsonString) {
+    Map<String, String> responseJson = new HashMap<>();
     ObjectMapper mapper = new ObjectMapper();
     User user = null;
     try {
@@ -49,17 +50,18 @@ public class AuthenticationController {
     try {
       user = userDao.authenticateUser(user);
     } catch (NoResultException e) {
-      Map<String,String> errJson = new HashMap<>();
-      errJson.put("message", "Username not found");
-      return new ResponseEntity<Map<String,String>>(errJson, HttpStatus.NOT_FOUND);
+      responseJson.put("error", "Username not found");
+      res.setStatus(404);
+      return responseJson;
     }
     if (user != null) {
       String jws = jwtGen.generateUserJwt(user.getId());
-      Map<String,String> success = new HashMap<>();
-      success.put("jwt", jws);
-      return new ResponseEntity<Map<String,String>>(success, HttpStatus.OK);
+      responseJson.put("jwt", jws);
+      return responseJson;
     }
-    return new ResponseEntity<String>("Incorrect password", HttpStatus.UNAUTHORIZED);
+    res.setStatus(500);
+    responseJson.put("error", "Internal Server Error");
+    return responseJson;
   }
 
   @RequestMapping(value = "/signup", method = RequestMethod.POST)

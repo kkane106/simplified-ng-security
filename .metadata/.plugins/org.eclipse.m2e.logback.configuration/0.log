@@ -552,3 +552,11 @@
 2016-08-29 11:14:49,949 [Worker-1531] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
 2016-08-29 11:14:49,950 [Worker-1531] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-08-29 11:14:49,953 [Worker-1531] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-29 11:21:16,412 [Worker-1537] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-29 11:21:16,416 [Worker-1537] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-29 11:21:16,419 [Worker-1537] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-29 11:21:16,422 [Worker-1537] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources
+2016-08-29 11:21:39,497 [Worker-1532] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-29 11:21:39,501 [Worker-1532] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\main\resources
+2016-08-29 11:21:39,502 [Worker-1532] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-29 11:21:39,505 [Worker-1532] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kkane\Development\StudentNgSecurity\SimpleNgSecurity\src\test\resources

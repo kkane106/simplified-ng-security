@@ -64,7 +64,6 @@ public class AuthenticationController {
       responseJson.put("jwt", jws);
       return responseJson;
     }
-    // Code may be unreacheable
     res.setStatus(500);
     responseJson.put("error", "Internal Server Error");
     return responseJson;

@@ -1,40 +1,26 @@
-package models;
-
-import java.security.Key;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-import entities.User;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
-import security.SecretKeyGenerator;
+package security;
 
 @Component
 public class JsonWebTokenGenerator {
-	@Autowired
-	SecretKeyGenerator keyGen;
+  @Autowired
+  SecretKeyGenerator keyGen;
 
-	public String generateUserJwt(User user, Key key) {
-		Date now = new Date();
-		Date tomorrow = new Date(now.getTime() + (1000 * 60 * 60 * 24));
-		
-		System.out.println("GOT HERE");
-		Map<String, Object> userJson = new HashMap<>();
-		userJson.put("user_id", user.getId());
-		userJson.put("username", user.getUsername());
-		
-		String jwt = "";
-		try {
-			jwt = Jwts.builder().setSubject("user").setClaims(userJson).setExpiration(tomorrow)
-					.signWith(SignatureAlgorithm.HS512, key).compact();
-		} catch (NullPointerException ne) {
-			ne.printStackTrace();
-		}
-		return jwt;
-	}
-	
+  public String generateUserJwt(User user) {
+    Date now = new Date();
+    Date tomorrow = new Date(now.getTime() + (1000 * 60 * 60 * 24));
+    
+    Map<String, Object> userJson = new HashMap<>();
+    userJson.put("user_id", user.getId());
+    userJson.put("username", user.getUsername());
+    
+    String jwt = "";
+    try {
+      jwt = Jwts.builder().setSubject("user").setClaims(userJson).setExpiration(tomorrow)
+          .signWith(SignatureAlgorithm.HS512, key).compact();
+    } catch (NullPointerException ne) {
+      ne.printStackTrace();
+    }
+    return jwt;
+  }
+  
 }

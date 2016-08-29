@@ -1,16 +1,4 @@
-package models;
-
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-import entities.User;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
-import security.SecretKeyGenerator;
+package security;
 
 @Component
 public class JsonWebTokenGenerator {
@@ -28,7 +16,7 @@ public class JsonWebTokenGenerator {
     String jwt = "";
     try {
       jwt = Jwts.builder().setSubject("user").setClaims(userJson).setExpiration(tomorrow)
-          .signWith(SignatureAlgorithm.HS512, keyGen.getSecretKey()).compact();
+          .signWith(SignatureAlgorithm.HS512, key).compact();
     } catch (NullPointerException ne) {
       ne.printStackTrace();
     }

@@ -54,6 +54,11 @@ public class AuthenticationController {
       res.setStatus(404);
       return responseJson;
     }
+    if (user == null) {
+      responseJson.put("error", "Password/Username combination is incorrect");
+      res.setStatus(401);
+      return responseJson;
+    }
     if (user != null) {
       String jws = jwtGen.generateUserJwt(user);
       responseJson.put("jwt", jws);

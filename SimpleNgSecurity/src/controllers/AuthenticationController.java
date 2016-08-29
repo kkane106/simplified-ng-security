@@ -55,7 +55,7 @@ public class AuthenticationController {
       return responseJson;
     }
     if (user != null) {
-      String jws = jwtGen.generateUserJwt(user.getId());
+      String jws = jwtGen.generateUserJwt(user);
       responseJson.put("jwt", jws);
       return responseJson;
     }
@@ -68,8 +68,9 @@ public class AuthenticationController {
   public Map<String,String> signup(HttpServletRequest req, HttpServletResponse res, @RequestBody String userJson) {
     Map<String,String> responseJson = new HashMap<>();
     ObjectMapper mapper = new ObjectMapper();
+    User user = null;
     try {
-      User user = mapper.readValue(userJson, User.class);
+      user = mapper.readValue(userJson, User.class);
     } catch (IOException ie) {
       ie.printStackTrace();
       res.setStatus(422);
